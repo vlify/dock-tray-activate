@@ -1,0 +1,40 @@
+{
+  "qq": {
+    "app_ids": [
+      "QQ"
+    ],
+    "flatpak_ids": [
+      "com.qq.QQ"
+    ],
+    "executables": [
+      "/app/extra/QQ/qq"
+    ],
+    "guard_running": true,
+    "launch": [
+      "flatpak",
+      "run",
+      "--command=qq",
+      "--file-forwarding",
+      "com.qq.QQ",
+      "@@u"
+    ],
+    "launch_suffix": [
+      "@@"
+    ]
+  },
+  "wechat": {
+    "app_ids": [
+      "WeChat"
+    ],
+    "flatpak_ids": [
+      "com.tencent.WeChat"
+    ],
+    "executables": [],
+    "guard_running": true,
+    "launch": [
+      "flatpak",
+      "run",
+      "com.tencent.WeChat"
+    ]
+  }
+}
