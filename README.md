@@ -1,5 +1,7 @@
 # Dock Tray Activate
 
+**简体中文** | [English](README.en.md)
+
 为关闭窗口后仍驻留托盘的应用提供一个明确的 Dock 唤醒入口。
 
 ```text

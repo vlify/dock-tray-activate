@@ -1,5 +1,7 @@
 # Noctalia Dock 交互说明
 
+**简体中文** | [English](noctalia.en.md)
+
 ## 两个独立问题
 
 1. 脚本负责把可见窗口、托盘实例、冷启动三种情况衔接起来。
